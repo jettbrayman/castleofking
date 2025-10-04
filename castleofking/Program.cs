@@ -24,7 +24,7 @@
                     {
                         doorsOpened++;
 
-                        int currentRoom = random.Next(0, 3); // 0 = treasure, 1 = dragon, 2 = king
+                        int currentRoom = random.Next(0, 3);
 
                         if (currentRoom == 0)
                         {
